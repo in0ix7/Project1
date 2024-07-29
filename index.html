@@ -4,157 +4,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Text</title>
+    <link rel="stylesheet" href="static/styles/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <title>My first site</title>
 </head>
 
 <body class="page-body">
-    <header class="section page-header">
-        <!-- RD Navbar
-        <div class="rd-navbar-wrap rd-navbar-modern-wrap">
-          <nav class="rd-navbar rd-navbar-modern" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-fixed" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static" data-xxl-device-layout="rd-navbar-static" data-lg-stick-up-offset="46px" data-xl-stick-up-offset="46px" data-xxl-stick-up-offset="70px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+    <!-- -->
 
--->
-        <div class="rd-navbar-wrap rd-navbar-modern-wrap">
-          <nav class="rd-navbar rd-navbar-modern rd-navbar--is-touch rd-navbar-original rd-navbar-fixed">
+    <div>
 
-            <div class="rd-navbar-main-outer">
+        <header class="sidebar">
+            My App
+        </header>
+        <ul>
+            <li><a href="#"><i class="fas fa-home"> Главная страница </i></a></li>
+            <li><a href="#"><i class="fas fa-link"> ссылка </i></a></li>
+            <li><a href="#"><i class="fas fa-stream">asd </i></a></li>
+            <li><a href="#"><i class="fas fa-calendar-week"> Главная страница </i></a></li>
+            <li><a href="#"><i class="fas fa-qrcode"> qqqq</i></a></li>
+            <li><a href="#"><i class="fas fa-qrcode"> www </i></a></li>
 
-              <div class="rd-navbar-main">
-                <!-- RD Navbar Panel-->
-                <div class="rd-navbar-panel">
-                  <!-- RD Navbar Toggle-->
-                  <button class="rd-navbar-toggle toggle-original" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
-                  <!-- RD Navbar Brand-->
-                  <div class="rd-navbar-brand"><a class="brand" href="/"><img src="/images12/logo.png" alt=""></a></div>
-
-<div class="rd-navbar-request">
-		<span><p>+7 123 456 78 90</p></span>
-		<span><a class="show-modal" href="/">Задать вопрос</a></span>
-</div>
-
-                </div>
-                <div class="rd-navbar-main-element">
-                  <div class="rd-navbar-nav-wrap toggle-original-elements">
-                    <!-- RD Navbar Search-->
-                    <div class="rd-navbar-search toggle-original-elements">
-                      <button class="rd-navbar-search-toggle toggle-original" data-rd-navbar-toggle=".rd-navbar-search"><span></span></button>
-                      <form class="rd-search" action="/search/" data-search-live="rd-search-results-live" method="GET">
-                        <div class="form-wrap">
-													<label class="form-label rd-input-label" for="rd-navbar-search-form-input">Поиск...</label>
-                          <input class="rd-navbar-search-form-input form-input" maxlength="200" id="rd-navbar-search-form-input" type="text" name="text" autocomplete="off" onfocus="$(this).siblings('.form-label').hide()" onblur="$(this).val() = '' ? $(this).siblings('.form-label').show() : ''">
-                          <div class="rd-search-results-live" id="rd-search-results-live"></div>
-                          <button class="rd-search-form-submit fl-bigmug-line-search74" type="submit"></button>
-                        </div>
-                      </form>
-                    </div>
-                    <!-- RD Navbar Nav-->
-											
-
-<ul class="rd-navbar-nav">
-  <li class="rd-nav-item">
-    <a href="/" title="Главная" class="rd-nav-link" onclick="location.href = this.href">Главная</a>
-  </li>
-  <li class="rd-nav-item active rd-navbar--has-dropdown rd-navbar-submenu">
-    <a href="/about/" title="Обо мне" class="rd-nav-link" onclick="location.href = this.href">Обо мне</a><span class="rd-navbar-submenu-toggle"></span>
-    <span class="rd-navbar-submenu-toggle"></span>
-    <ul class="rd-menu rd-navbar-dropdown">
-      <li>
-        <a href="/about/192/" title="Клиентам" data-toggle="dropdown" class="rd-dropdown-link" onclick="location.href = this.href">Клиентам</a>
-      </li>
-      <li>
-        <a href="/about/price/" title="Прайс" data-toggle="dropdown" class="rd-dropdown-link" onclick="location.href = this.href">Прайс</a>
-      </li>
-    </ul>
-  </li>
-  <li class="rd-nav-item">
-    <a href="/services/" title="Услуги" class="rd-nav-link" onclick="location.href = this.href">Услуги</a>
-  </li>
-  <li class="rd-nav-item">
-    <a href="/news/" title="Новости" class="rd-nav-link" onclick="location.href = this.href">Новости</a>
-  </li>
-  <li class="rd-nav-item">
-    <a href="/uslugi/25/" title="Фотогалерея" class="rd-nav-link" onclick="location.href = this.href">Фотогалерея</a>
-  </li>
-  <li class="rd-nav-item">
-    <a href="/contacts/" title="Контакты" class="rd-nav-link" onclick="location.href = this.href">Контакты</a>
-  </li>
-</ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </nav><nav class="rd-navbar rd-navbar-modern rd-navbar--is-touch rd-navbar--is-clone rd-navbar-fixed">
-
-            <div class="rd-navbar-main-outer">
-
-              <div class="rd-navbar-main">
-                <!-- RD Navbar Panel-->
-                <div class="rd-navbar-panel">
-                  <!-- RD Navbar Toggle-->
-                  <button class="rd-navbar-toggle toggle-cloned" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
-                  <!-- RD Navbar Brand-->
-                  <div class="rd-navbar-brand"><a class="brand" href="/"><img src="/images12/logo.png" alt=""></a></div>
-
-<div class="rd-navbar-request">
-		<span><p>+7 123 456 78 90</p></span>
-		<span><a class="show-modal" href="/">Задать вопрос</a></span>
-</div>
-
-                </div>
-                <div class="rd-navbar-main-element">
-                  <div class="rd-navbar-nav-wrap toggle-cloned-elements">
-                    <!-- RD Navbar Search-->
-                    <div class="rd-navbar-search toggle-cloned-elements">
-                      <button class="rd-navbar-search-toggle toggle-cloned" data-rd-navbar-toggle=".rd-navbar-search"><span></span></button>
-                      <form class="rd-search" action="/search/" data-search-live="rd-search-results-live" method="GET">
-                        <div class="form-wrap">
-													<label class="form-label rd-input-label" for="rd-navbar-search-form-input">Поиск...</label>
-                          <input class="rd-navbar-search-form-input form-input" maxlength="200" id="rd-navbar-search-form-input" type="text" name="text" autocomplete="off" onfocus="$(this).siblings('.form-label').hide()" onblur="$(this).val() = '' ? $(this).siblings('.form-label').show() : ''">
-                          <div class="rd-search-results-live" id="rd-search-results-live"></div>
-                          <button class="rd-search-form-submit fl-bigmug-line-search74" type="submit"></button>
-                        </div>
-                      </form>
-                    </div>
-                    <!-- RD Navbar Nav-->
-											
-
-                        <ul class="rd-navbar-nav">
-                        <li class="rd-nav-item">
-                            <a href="/" title="Главная" class="rd-nav-link" onclick="location.href = this.href">Главная</a>
-                        </li>
-                        <li class="rd-nav-item active rd-navbar--has-dropdown rd-navbar-submenu">
-                            <a href="/about/" title="Обо мне" class="rd-nav-link" onclick="location.href = this.href">Обо мне</a><span class="rd-navbar-submenu-toggle"></span>
-                            <span class="rd-navbar-submenu-toggle"></span>
-                            <ul class="rd-menu rd-navbar-dropdown">
-                            <li>
-                                <a href="/about/192/" title="Клиентам" data-toggle="dropdown" class="rd-dropdown-link" onclick="location.href = this.href">Клиентам</a>
-                            </li>
-                            <li>
-                                <a href="/about/price/" title="Прайс" data-toggle="dropdown" class="rd-dropdown-link" onclick="location.href = this.href">Прайс</a>
-                            </li>
-                            </ul>
-                        </li>
-                        <li class="rd-nav-item">
-                            <a href="/services/" title="Услуги" class="rd-nav-link" onclick="location.href = this.href">Услуги</a>
-                        </li>
-                        <li class="rd-nav-item">
-                            <a href="/news/" title="Новости" class="rd-nav-link" onclick="location.href = this.href">Новости</a>
-                        </li>
-                        <li class="rd-nav-item">
-                            <a href="/uslugi/25/" title="Фотогалерея" class="rd-nav-link" onclick="location.href = this.href">Фотогалерея</a>
-                        </li>
-                        <li class="rd-nav-item">
-                            <a href="/contacts/" title="Контакты" class="rd-nav-link" onclick="location.href = this.href">Контакты</a>
-                        </li>
-                        </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </nav>
+        </ul>
+    </div>
+    <!-- -->
+    <div class="containerQR">
+        <p>Вставьте свою URL ссылку</p>
+        <input type="text" placeholder=" URL " id="qrText">
+        <div id="qrBox">
+            <img src="" id="qrImage">
         </div>
-      </header>
+
+        <button onclick="generateQR()"> Создать QR код </button>
+    </div>
+
+
+    <script>
+        let qrBox = document.getElementById(qrBox);
+        let qrImage = document.getElementById(qrImage);
+        let qrText = document.getElementById(qrText);
+        function generateQR() {
+            qrImage.src = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data="+ qrText.value;
+
+        }
+    </script>
+
 </body>
 
 </html>
